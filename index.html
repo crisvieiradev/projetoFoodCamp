@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodCamp</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topo">
+        <h1>FoodCamp</h1>
+        <p>Sua comida em 6 minutos</p>
+    </div>
+    <div class="conteudo">
+        <h2>Primeiro, seu prato</h2>
+        <div class="prato pratos">
+            <div class="prato1 prato-frango" onclick="selecionarPrato('.prato-frango')">
+                <img src="Imagens/frango-assado-em-pe.jpg">
+                <h3>Frango Yin Yang</h3>
+                <p id="descricao-prato">Um pouco de batata, um pouco de salada</p>
+                <p id="preco">R$ 14,90</p>
+            </div>
+            <div class="prato2 prato-carne" onclick="selecionarPrato('.prato-carne')">
+                <img src="Imagens/frango-assado-em-pe.jpg">
+                <h3>Frango Yin Yang</h3>
+                <p id="descricao-prato">Um pouco de batata, um pouco de salada</p>
+                <p id="preco">R$ 14,90</p>
+            </div>
+            <div class="prato3 prato-peixe" onclick="selecionarPrato('.prato-peixe')">
+                <img src="Imagens/frango-assado-em-pe.jpg">
+                <h3>Frango Yin Yang</h3>
+                <p id="descricao-prato">Um pouco de batata, um pouco de salada</p>
+                <p id="preco">R$ 14,90</p>
+            </div>
+        </div>
+        <h2>Agora, sua bebida</h2>
+        <div class="bebida bebidas">
+            <div class="bebida1" onclick="SelecionarBebida('.bebida1')">
+                <img src="Imagens/coca-cola.jpg">
+                <h3>Coquinha gelada</h3>
+                <p id="descricao-prato">Lata 350ml</p>
+                <p id="preco">R$ 4,90</p>
+            </div>
+            <div class="bebida2" onclick="SelecionarBebida('.bebida2')">
+                <img src="Imagens/coca-cola.jpg">
+                <h3>Coquinha gelada</h3>
+                <p id="descricao-prato">Lata 350ml</p>
+                <p id="preco">R$ 4,90</p>
+            </div>
+            <div class="bebida3" onclick="SelecionarBebida('.bebida3')">
+                <img src="Imagens/coca-cola.jpg">
+                <h3>Coquinha gelada</h3>
+                <p id="descricao-prato">Lata 350ml</p>
+                <p id="preco">R$ 4,90</p>
+            </div>
+        </div>
+        <h2>Por fim, sua sobremesa</h2>
+        <div class="sobremesa sobremesas">
+            <div class="sobremesa1" onclick="SelecionarSobremesa('.sobremesa1')">
+                <img src="Imagens/pudim.jpg">
+                <h3>Pudim</h3>
+                <p id="descricao-prato">Apenas pudim</p>
+                <p id="preco">R$ 7,90</p>
+            </div>
+            <div class="sobremesa2" onclick="SelecionarSobremesa('.sobremesa2')">
+                <img src="Imagens/pudim.jpg">
+                <h3>Pudim</h3>
+                <p id="descricao-prato">Apenas pudim</p>
+                <p id="preco">R$ 7,90</p>
+            </div>
+            <div class="sobremesa3" onclick="SelecionarSobremesa('.sobremesa3')">
+                <img src="Imagens/pudim.jpg">
+                <h3>Pudim</h3>
+                <p id="descricao-prato">Apenas pudim</p>
+                <p id="preco">R$ 7,90</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <button class="continuar" onclick="('.continuar')" href="#" target="_blank">Selecione os 3 itens</br> para fechar o pedido</button>
+    </div>
+<script type="text/javascript" src="javascript.js"></script>   
+</body>
+</html>
